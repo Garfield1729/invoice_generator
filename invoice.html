@@ -324,7 +324,7 @@
 
             <div class="signature">
                 <p>(Signature)</p>
-                <p><strong>Trainer Name:</strong> <span id="displayTrainerName2"></span></p>
+                <p><strong>Trainer Name:</strong> <span id="displayTrainerNameBottom"></span></p>
             </div>
 
             <button onclick="editInvoice()">Edit Invoice</button>
@@ -416,6 +416,7 @@
             document.getElementById('displayCompanyName').textContent = companyName;
             document.getElementById('displayCompanyAddress').textContent = companyAddress;
             document.getElementById('displayTrainerName').textContent = trainerName;
+            document.getElementById('displayTrainerNameBottom').textContent = trainerName;
             document.getElementById('displayTrainerContact').textContent = trainerContact;
             document.querySelector("table tbody").innerHTML = servicesHTML;
             document.getElementById('displayTotal').textContent = totalAmount;
